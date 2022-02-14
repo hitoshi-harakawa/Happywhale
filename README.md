@@ -86,3 +86,22 @@ https://japan.zdnet.com/article/35140207/2/
 - インスタンス認識の論文などチェックしてみる
 - プラスでその他のアプローチも調べる
 
+インスタンス認識に関する記事
+https://ai.googleblog.com/2020/09/advancing-instance-level-recognition.html
+
+DELG（DEep Local and Global Image Features）
+画像の局所特徴量（特定の画像領域に関する記述子/形状情報）と大域特徴量（画像の内容全体を要約したもの）の統一モデル
+画像検索
+
+DELG（DEep Local and Global Image Features）コード
+https://github.com/tensorflow/models/tree/master/research/delf
+
+![image](https://user-images.githubusercontent.com/68815430/153877924-616f740e-cb78-4991-952f-f2cb8932041d.png)
+
+解説記事
+https://deepsquare.jp/2020/09/delg/
+実装記事
+https://qiita.com/taiga518/items/24c7abdb763a530b9a67
+実装karnel
+https://www.kaggle.com/camaskew/host-baseline-example
+https://www.kaggle.com/ragnar123/baseline-dnn-with-delg-global-embeddings
