@@ -1,7 +1,7 @@
 # Happywhale
 クジラ/イルカの画像識別コンペ
 ## 2022/2/9開始
-- Discription(訳: DeepL)
+- Description(訳: DeepL)
   
 私たちは、指紋や顔認識で人を識別していますが、動物にも同じようなアプローチができるのでしょうか？実際、研究者は尾や背びれ、頭など体の部位の形や模様から海洋生物を手作業で追跡しています。写真による識別は、写真IDとして知られ、海洋哺乳類の科学にとって強力なツールです。写真による個体識別は、海洋哺乳類の科学にとって強力なツールであり、個体を長期にわたって追跡し、個体群の状態や傾向を評価することができます。クジラやイルカの写真識別を自動化することで、研究者は画像の識別時間を99％以上短縮することができます。より効率的な識別が可能になれば、これまで手が届かなかった、あるいは不可能だった規模の研究ができるようになるかもしれません。
   
@@ -44,6 +44,7 @@
 - バッチ処理により処理時間を短縮する
 
 画像コンペ取り組み方
+
 https://japan.zdnet.com/article/35140207/2/
 ![image](https://user-images.githubusercontent.com/68815430/153024040-46bf1118-4665-472f-ab65-b63427006e47.png)
 
@@ -128,6 +129,7 @@ https://github.com/seungkee/google_landmark_retrieval_2020_1st_place_solution
 https://arxiv.org/abs/2010.01650
 
 EDA
+
 https://www.kaggle.com/prikshitsingla/happy-whale-kernel
 
 - イルカと鯨の画像と個体ID、種が与えられ、画像から5つの個体IDを予測。評価指標はMAP@5
