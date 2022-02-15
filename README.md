@@ -31,6 +31,12 @@
 
 ![image](https://user-images.githubusercontent.com/68815430/153022734-c4a29b8a-83dd-4f05-883d-4fac635bc28c.png)
 
+- Data
+
+前回のHappyWhaleでは、ザトウクジラのフロックの画像から個体を予測する課題でした。このデータセットに含まれるクジラとイルカは、背びれ、背中、頭、脇腹の形状、特徴、マーク（天然のものと後天性のものがある）により識別することができます。種や個体によっては、非常にはっきりした特徴を持つものもあれば、非常にはっきりしないものもあります。さらに、個々の特徴は時間とともに変化することもある。このコンペティションのデータは、28の異なる研究機関から収集された30種、15,000個体以上のユニークな海洋哺乳類の画像を含んでおり、この課題は大幅に拡大されています。その個体は、海洋研究者によって手作業で識別され、individual_idが付与されており、あなたの仕事は、画像中のこれらの個体を正しく識別することです。世界中の海洋哺乳類の理解と保護を大きく前進させる可能性を秘めた、チャレンジングなタスクです。
+
+データの品質に関する重要な注意点です。多くの異なる研究機関から集められたこのデータセットをまとめることは、現実的に多くの課題を提起しました。データ品質の問題を最小化し、漏れを最小限にするために多大な努力が払われた。しかし、間違いなく問題は存在します。しかし、よほどのことがない限り、大会中にデータを更新することはないと考えています。
+
 
 ## 2/9
 ゼロから作るDeep Learning 3章完了
@@ -87,10 +93,12 @@ https://japan.zdnet.com/article/35140207/2/
 - プラスでその他のアプローチも調べる
 
 インスタンス認識に関する記事
+
 https://ai.googleblog.com/2020/09/advancing-instance-level-recognition.html
 
 DELG（DEep Local and Global Image Features）
 画像の局所特徴量（特定の画像領域に関する記述子/形状情報）と大域特徴量（画像の内容全体を要約したもの）の統一モデル
+
 画像検索
 
 DELG（DEep Local and Global Image Features）コード
@@ -100,8 +108,30 @@ https://github.com/tensorflow/models/tree/master/research/delf
 
 解説記事
 https://deepsquare.jp/2020/09/delg/
+
+tensorflow公式のGitHub
+https://github.com/tensorflow/models/tree/master/research/delf
+
 実装記事
 https://qiita.com/taiga518/items/24c7abdb763a530b9a67
+
 実装karnel
 https://www.kaggle.com/camaskew/host-baseline-example
 https://www.kaggle.com/ragnar123/baseline-dnn-with-delg-global-embeddings
+
+## 2/15
+
+Google landmark 検索タスク 1st Solution
+
+https://www.kaggle.com/c/landmark-recognition-2020/discussion/187821
+https://github.com/seungkee/google_landmark_retrieval_2020_1st_place_solution
+https://arxiv.org/abs/2010.01650
+
+EDA
+https://www.kaggle.com/prikshitsingla/happy-whale-kernel
+
+- イルカと鯨の画像と個体ID、種が与えられ、画像から5つの個体IDを予測。評価指標はMAP@5
+- train.csvは51,033行、3列（画像名、種別、個体ID）、nullなし
+- 種別は30
+- イルカより鯨の画像が多い（1:2）
+- belugaをwhaleに、globisをwhaleに、kiler_whale -> killer_whale、bottlenose_dospin -> bottlenose_dolphinに統合
