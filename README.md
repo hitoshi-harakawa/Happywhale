@@ -137,3 +137,17 @@ https://www.kaggle.com/prikshitsingla/happy-whale-kernel
 - 種別は30
 - イルカより鯨の画像が多い（1:2）
 - belugaをwhaleに、globisをwhaleに、kiler_whale -> killer_whale、bottlenose_dospin -> bottlenose_dolphinに統合
+
+## 2/16
+
+EDA_日本語のcode
+
+https://www.kaggle.com/yama09/happy-whales-and-dolphins
+https://www.kaggle.com/yama09/happywhale-2022-starter
+
+- ユニーク個体数15,587
+- test画像は27,956
+
+ArcFaceのベースライン
+
+https://www.kaggle.com/ks2019/happywhale-arcface-baseline-tpu
