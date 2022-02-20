@@ -151,3 +151,7 @@ https://www.kaggle.com/yama09/happywhale-2022-starter
 ArcFaceのベースライン
 
 https://www.kaggle.com/ks2019/happywhale-arcface-baseline-tpu
+
+## 2/20
+
+scikit-learn, Keras, TensorFlowによる実践機械学習　1章
