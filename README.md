@@ -158,3 +158,8 @@ scikit-learn, Keras, TensorFlowによる実践機械学習　1章
 
 ## 2/23
 
+環境構築
+kaggle-api利用
+データのダウンロード
+
+https://haltaro.github.io/2018/07/10/kaggle-api
