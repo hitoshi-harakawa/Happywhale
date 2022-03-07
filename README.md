@@ -176,3 +176,15 @@ https://haltaro.github.io/2018/07/10/kaggle-api
 https://www.kaggle.com/aikhmelnytskyy/happywhale-arcface-baseline-eff7-tpu-768-concat
 
 kaggle notebook上で実行し、score 0.729
+
+ベースモデル: https://www.kaggle.com/ks2019/happywhale-arcface-baseline-tpu
+
+## 3/7
+
+tfrecordsのガイド
+
+http://warmspringwinds.github.io/tensorflow/tf-slim/2016/12/21/tfrecords-guide/
+
+距離学習概要
+
+https://qiita.com/tancoro/items/8d3438cab574a02319cc
