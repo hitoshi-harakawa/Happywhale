@@ -170,3 +170,9 @@ https://www.kaggle.com/andrej0marinchenko/happywhale-0-679
 kaggle notebook上で実行し、score 0.678
 
 https://haltaro.github.io/2018/07/10/kaggle-api
+
+## 3/1
+
+https://www.kaggle.com/aikhmelnytskyy/happywhale-arcface-baseline-eff7-tpu-768-concat
+
+kaggle notebook上で実行し、score 0.729
