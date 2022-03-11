@@ -188,3 +188,7 @@ http://warmspringwinds.github.io/tensorflow/tf-slim/2016/12/21/tfrecords-guide/
 距離学習概要
 
 https://qiita.com/tancoro/items/8d3438cab574a02319cc
+
+## 3/10
+
+TFRecordは「メモリに収まらないような大きいデータを処理できいるようにしたもので、レコード指向のバイナリフォーマット」
