@@ -192,3 +192,34 @@ https://qiita.com/tancoro/items/8d3438cab574a02319cc
 ## 3/10
 
 TFRecordは「メモリに収まらないような大きいデータを処理できいるようにしたもので、レコード指向のバイナリフォーマット」
+
+## 3/20
+
+arcfaceのモデル解読
+
+## 3/21
+
+kaggle日記
+https://github.com/Yuki-Tanaka-33937424/kaggle-Shopee-Price-Match-Guarantee
+
+arcface解説
+https://qiita.com/yu4u/items/078054dfb5592cbb80cc
+
+距離学習
+https://qiita.com/tancoro/items/8d3438cab574a02319cc
+
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/68815430/159259658-21576b99-cb8c-4f47-b570-ef191c656289.png">
+
+なぜarcface?に対する回答
+
+これはMNISTの数字のように単純な画像分類問題のように見えますが、1つ非常に重要な違いがあります。つまり、テストセットにnew_individualという新しいクラスがあることです。従って、NNはあらゆる新しいクジラを、既存の15587種の学習用クジラから区別することを学習しなければならない。ArcFaceは、最終層のニューロンから得られる埋め込みをクラスタリングすることで、入力画像が出力層のどのニューロンクラスにも属さないことを確信できる方法を提供するのです。
+ArcFaceがなければ、どんな画像もトレーニングセットの15587個の個体のうちの1つに分類されてしまいますが、そのときにできることは、それ以下では新しい個体として分類しないという信頼度の下限を設定することです。ArcFaceは、この素朴な選択肢よりも明らかに優れています。ですから、ほとんどの人がArcFaceを使い、新しい鯨の個体の画像をうまく識別することが重要なのです。
+
+参照: https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/313697
+
+effnetのversion変えることでscore上がる？
+バックフィンのデータセットを使えばスコア上がる？
+下記データセット使えばスコア上がる？
+https://www.kaggle.com/code/lextoumbourou/happywhale-tfrecords-with-bounding-boxes/notebook
+ConvNeXt + arkfaceでスコア上がる？（pytorch）
+https://www.kaggle.com/code/clemchris/pytorch-backfin-convnext-arcface/comments
