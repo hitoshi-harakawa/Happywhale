@@ -193,9 +193,10 @@ https://qiita.com/tancoro/items/8d3438cab574a02319cc
 
 TFRecordは「メモリに収まらないような大きいデータを処理できいるようにしたもので、レコード指向のバイナリフォーマット」
 
-## 3/20
+## 3/13-3/20
 
 arcfaceのモデル解読
+kagglenotebook上でGCSのpathを確認することで、colabでも実行可能に
 
 ## 3/21
 
@@ -217,9 +218,14 @@ ArcFaceがなければ、どんな画像もトレーニングセットの15587�
 
 参照: https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/313697
 
+スコアup仮説
+
 effnetのversion変えることでscore上がる？
+
 バックフィンのデータセットを使えばスコア上がる？
+
 下記データセット使えばスコア上がる？
 https://www.kaggle.com/code/lextoumbourou/happywhale-tfrecords-with-bounding-boxes/notebook
+
 ConvNeXt + arkfaceでスコア上がる？（pytorch）
 https://www.kaggle.com/code/clemchris/pytorch-backfin-convnext-arcface/comments
