@@ -229,3 +229,14 @@ https://www.kaggle.com/code/lextoumbourou/happywhale-tfrecords-with-bounding-box
 
 ConvNeXt + arkfaceでスコア上がる？（pytorch）
 https://www.kaggle.com/code/clemchris/pytorch-backfin-convnext-arcface/comments
+
+## 3/27
+
+https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/315079
+gem poolingでスコア上がる？
+データと画像サイズがクリティカルっぽい
+
+## 3/28
+
+IMAGE_SIZE = 600で回してみる
+公開されているデータセットを使ってみるのが早そう？
