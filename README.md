@@ -220,23 +220,48 @@ ArcFaceがなければ、どんな画像もトレーニングセットの15587�
 
 スコアup仮説
 
-effnetのversion変えることでscore上がる？
+effnetのversion変えることでscore上がる？ -> すぐできそう
 
-バックフィンのデータセットを使えばスコア上がる？
+バックフィンのデータセットを使えばスコア上がる？ -> 既存の実行コードあればできそう
 
-下記データセット使えばスコア上がる？
+下記データセット使えばスコア上がる？ -> すぐできそう
 https://www.kaggle.com/code/lextoumbourou/happywhale-tfrecords-with-bounding-boxes/notebook
 
-ConvNeXt + arkfaceでスコア上がる？（pytorch）
+ConvNeXt + arkfaceでスコア上がる？（pytorch）-> 厳しい
 https://www.kaggle.com/code/clemchris/pytorch-backfin-convnext-arcface/comments
 
 ## 3/27
 
 https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/315079
-gem poolingでスコア上がる？
+gem poolingでスコア上がる？ -> コード探してみる
 データと画像サイズがクリティカルっぽい
 
 ## 3/28
 
 IMAGE_SIZE = 600で回してみる
 公開されているデータセットを使ってみるのが早そう？
+kagglenotebook上はResourceExhaustedError
+
+モデル精度向上の考え方
+https://twitter.com/mamas16k/status/1507975748640198664
+https://twitter.com/marktenenholtz/status/1507688839149617163
+
+The WRONG way to significantly improve your models:
+
+• Different architecture
+• Hyperparameter tuning
+• Bigger ensemble
+
+The RIGHT way:
+
+• Thorough EDA
+• Meticulous error analysis
+• Robust model evaluation
+
+1. Label Leakage (label/proxy is in the feature set)
+2. Time Leakage (data won’t be available at prediction time)
+3. Overfitting (model does poorly on new data)
+4. Underfitting (poor performance in train)
+5. Drift (signal is changing over time)
+
+colab上でも実験を回せるようnotebookを設定
