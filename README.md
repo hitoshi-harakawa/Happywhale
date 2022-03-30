@@ -265,3 +265,25 @@ The RIGHT way:
 5. Drift (signal is changing over time)
 
 colab上でも実験を回せるようnotebookを設定
+
+## 3/30
+
+https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/313987
+
+Best performance is achieved by choosing the proper dataset.
+
+Detic > yolo if you are using the following dataset
+https://www.kaggle.com/code/lextoumbourou/happywhale-tfrecords-with-bounding-boxes/notebook
+LB - 0.747
+
+It takes minor effort to
+use the bounding box info from https://www.kaggle.com/jpbremer/fullbodywhaleannotations
+LB - 0.786
+
+During the analysis, I used exactly the same training environment and I changed only the dataset.
+The performance is observed in a single model EffnetB7 (600 image-size) trained for 40 epochs. Single fold(45k images)
+
+There seem to be a few better datasets that are the key boosters {that the top kernels are using}.
+From your experiments, which dataset is yielding better results for you?
+
+データセットの改善でスコアが上がりそう
