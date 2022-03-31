@@ -287,3 +287,8 @@ There seem to be a few better datasets that are the key boosters {that the top k
 From your experiments, which dataset is yielding better results for you?
 
 データセットの改善でスコアが上がりそう
+
+## 3/31
+
+これを試してみる
+https://www.kaggle.com/code/jpbremer/backfins-arcface-tpu-effnet/notebook
