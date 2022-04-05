@@ -292,3 +292,7 @@ From your experiments, which dataset is yielding better results for you?
 
 これを試してみる
 https://www.kaggle.com/code/jpbremer/backfins-arcface-tpu-effnet/notebook
+
+## 4/4
+
+effv1-5でLB0.535
