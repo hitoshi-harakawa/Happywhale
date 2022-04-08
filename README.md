@@ -296,3 +296,6 @@ https://www.kaggle.com/code/jpbremer/backfins-arcface-tpu-effnet/notebook
 ## 4/4
 
 effv1-5でLB0.535
+
+## 4/7
+effnet + arcfaceのベースラインを理解する。
